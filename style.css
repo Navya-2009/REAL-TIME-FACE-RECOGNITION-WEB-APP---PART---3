@@ -1,0 +1,55 @@
+body{
+
+    background-image:url("background.jpg") ;
+    background-size: cover; 
+    height: 750px;  
+}
+
+.heading{
+ 
+    margin-top: 15px;
+    box-shadow: 9px 9px 9px grey;
+    width: 50%;
+}
+
+.heading_div2, .family_div{
+
+    float: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 11px 11px 11px grey;
+    width: 35%;
+}
+
+.member_div{
+
+    float: none;
+    color: white;
+    font-size: 18.5px;
+    font-weight: bold;
+    box-shadow: 11px 11px 11px grey;
+}
+
+.copy_right_footer{
+
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    line-height: 2;
+    z-index: 100;
+}
+
+canvas{
+
+    border: 5px dashed purple;
+    border-radius: 20px;
+    margin-top: 170px;
+    box-shadow: 5px 5px 9px purple;
+
+}
